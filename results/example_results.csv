@@ -1,0 +1,7 @@
+example,activity_bq,detection_limit_bq,specific_activity_bq_per_kg,specific_detection_limit_bq_per_kg,signal_detected,method_suitable
+surface_smear_60s,99.50118203309692,0.9791192102315963,,,True,True
+surface_smear_600s,99.50827423167848,0.3288902830479399,,,True,True
+surface_smear_1800s,99.54018912529551,0.22991120474697013,,,True,True
+radioactive_waste,10.046296296296296,1.1422710626959467,13.395061728395062,1.5230280835945955,True,True
+be7_roi,0.08307984790874524,0.08259997634336064,,,True,
+
