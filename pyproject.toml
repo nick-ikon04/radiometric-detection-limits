@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "radiometric-detection-limits"
+version = "1.0.0"
+description = "Educational calculations of radiometric decision thresholds, detection limits, and gamma-peak ROI statistics"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "nick-ikon04" }
+]
+keywords = ["radiometry", "radiation-protection", "detection-limit", "gamma-spectrometry"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.scripts]
+radiometric-examples = "radiometric_detection_limits.examples:main"
+
+[tool.setuptools.packages.find]
+include = ["radiometric_detection_limits*"]
+
+
